@@ -11,6 +11,8 @@ Setup is very simple. There are only 3 easy steps:
 
 3. Lastly, run the following 2 commands in your terminal to create a virtual environment and install all necessary dependencies:
 
+_NOTE: If you get an error that you do not have python, pip or venv on your computer, you will need to Google how to install the ones you lack._
+
 First create the virtual environment:
 ```sh
 python3 -m venv venv
@@ -30,7 +32,7 @@ There are 2 simple scripts that utilize the Mashvisor class to pull data:
 ### [app.py](./app.py)
 This is a small script that allows you to run any function the Mashvisor class can call inside a try/except block. Running this script pulls the data using the Mashvisor API and saves it to a JSON file for easy analysis.
 
-NOTE: For more information on the Mashvisor class and it's methods, go to [mashvisor.py](./mashvisor.py).
+_NOTE: For more information on the Mashvisor class and it's methods, go to [mashvisor.py](./mashvisor.py)._
 
 ```python
 import json
