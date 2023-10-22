@@ -24,7 +24,7 @@ Then install your dependencies:
 pip install -r requirements.txt
 ```
 
-**That is it! you are ready to run some numbers!**
+**That is it! You are ready to run some numbers!**
 
 
 ## Run
