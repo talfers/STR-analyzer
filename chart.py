@@ -2,11 +2,11 @@ import seaborn as sn
 import matplotlib.pyplot as plt
 import json
  
-# Update this filename to change which file to load into memory
+# Update this filename variable BELOW to change which file to load into memory
 filename = './analysis/occupancy-rates'
 f = open(f'{filename}.json')
 data = json.load(f)
 
-# Update the location of the data below to choose where in your dataset to chart/visualize
+# Update the location of the data BELOW to choose where in your dataset to chart/visualize
 plt.hist(data['detailed']['three_bedrooms_histogram'])
 plt.savefig('./3-bed-occupancy-histogram')
