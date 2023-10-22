@@ -1,5 +1,7 @@
 # STR Analyzer
 
+This is an application setup to pull various datasets relating to short and long term rentals based on sites like Airbnb. There is a main [Mashvisor](./mashvisor.py) class that contains all the methods you need to collect ample data to use for your analysis.
+
 ## Setup
 Setup is very simple. There are only 3 easy steps:
 
