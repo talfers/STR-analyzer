@@ -22,7 +22,7 @@ cd STR-analyzer
 
 
 ## Setup
-Setup is very simple. There are only 3 easy steps:
+Setup is very simple. There are 3 easy steps:
 
 1. Go to [RapidAPI](https://rapidapi.com/mashvisor-team/api/mashvisor) and sign up for the free tier of the Mashvisor API. Once you have signed up, grab your `X-RapidAPI-Key` from your account.
 
