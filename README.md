@@ -28,6 +28,8 @@ There are 2 simple scripts that utilize the Mashvisor class to pull data:
 ### [app.py](./app.py)
 This is a small script that allows you to run any function the Mashvisor class can call inside a try/except block. Running this script pulls the data using the Mashvisor API and saves it to a JSON file for easy analysis.
 
+NOTE: For more information on the Mashvisor class and it's methods, go to [mashvisor.py](./mashvisor.py).
+
 ```python
 import json
 from log import logging
