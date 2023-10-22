@@ -12,6 +12,7 @@ class Mashvisor:
             "X-RapidAPI-Host": config.mashvisor_api_host
         }
 
+
     def return_response(self, response):
         if response.json()['status'] == 'success': return response.json()['content']
         else: raise Exception(f'Error getting neighborhoods! Error: {response.json()["message"]}')
@@ -84,15 +85,3 @@ class Mashvisor:
     
     def __str__(self):
         pass
-    
-
-
-    
-    
-    
-    
-    
-    
-        
-           
-    
