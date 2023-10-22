@@ -1,0 +1,19 @@
+{
+    "status": "success",
+    "content": {
+      "count": 1,
+      "results": [
+        {
+          "id": 30476,
+          "city": "Black Hawk",
+          "latitude": 39.7969322,
+          "longitude": -105.4938853,
+          "name": "Black Hawk",
+          "state": "CO",
+          "county": "Gilpin",
+          "is_village": 1
+        }
+      ]
+    },
+    "message": "City neighborhoods list fetched successfully"
+  }

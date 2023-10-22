@@ -1,0 +1,262 @@
+{
+    "input": {
+        "page": "1",
+        "items": "50",
+        "state": "CO"
+    },
+    "total_page_results": 36,
+    "cities": [
+        {
+            "city": "Denver",
+            "state": "CO",
+            "occupancy": 74,
+            "total_listing": 27413,
+            "occ_listing": 2028562
+        },
+        {
+            "city": "Boulder",
+            "state": "CO",
+            "occupancy": 70,
+            "total_listing": 12291,
+            "occ_listing": 860370
+        },
+        {
+            "city": "Fort Collins",
+            "state": "CO",
+            "occupancy": 65,
+            "total_listing": 9334,
+            "occ_listing": 606710
+        },
+        {
+            "city": "Aurora",
+            "state": "CO",
+            "occupancy": 70,
+            "total_listing": 2608,
+            "occ_listing": 182560
+        },
+        {
+            "city": "Lakewood",
+            "state": "CO",
+            "occupancy": 67,
+            "total_listing": 2093,
+            "occ_listing": 140231
+        },
+        {
+            "city": "Colorado Springs",
+            "state": "CO",
+            "occupancy": 59,
+            "total_listing": 1876,
+            "occ_listing": 110684
+        },
+        {
+            "city": "Steamboat Springs",
+            "state": "CO",
+            "occupancy": 44,
+            "total_listing": 2008,
+            "occ_listing": 88352
+        },
+        {
+            "city": "Breckenridge",
+            "state": "CO",
+            "occupancy": 47,
+            "total_listing": 1796,
+            "occ_listing": 84412
+        },
+        {
+            "city": "Broomfield",
+            "state": "CO",
+            "occupancy": 69,
+            "total_listing": 1022,
+            "occ_listing": 70518
+        },
+        {
+            "city": "Federal Heights",
+            "state": "CO",
+            "occupancy": 65,
+            "total_listing": 1071,
+            "occ_listing": 69615
+        },
+        {
+            "city": "Wildernest",
+            "state": "CO",
+            "occupancy": 50,
+            "total_listing": 1165,
+            "occ_listing": 58250
+        },
+        {
+            "city": "Estes Park",
+            "state": "CO",
+            "occupancy": 60,
+            "total_listing": 909,
+            "occ_listing": 54540
+        },
+        {
+            "city": "Durango",
+            "state": "CO",
+            "occupancy": 52,
+            "total_listing": 1038,
+            "occ_listing": 53976
+        },
+        {
+            "city": "Keystone",
+            "state": "CO",
+            "occupancy": 48,
+            "total_listing": 802,
+            "occ_listing": 38496
+        },
+        {
+            "city": "Minturn",
+            "state": "CO",
+            "occupancy": 44,
+            "total_listing": 874,
+            "occ_listing": 38456
+        },
+        {
+            "city": "Frisco",
+            "state": "CO",
+            "occupancy": 47,
+            "total_listing": 664,
+            "occ_listing": 31208
+        },
+        {
+            "city": "Vail",
+            "state": "CO",
+            "occupancy": 40,
+            "total_listing": 780,
+            "occ_listing": 31200
+        },
+        {
+            "city": "Pagosa Springs",
+            "state": "CO",
+            "occupancy": 52,
+            "total_listing": 510,
+            "occ_listing": 26520
+        },
+        {
+            "city": "Silverthorne",
+            "state": "CO",
+            "occupancy": 49,
+            "total_listing": 532,
+            "occ_listing": 26068
+        },
+        {
+            "city": "Granby",
+            "state": "CO",
+            "occupancy": 41,
+            "total_listing": 590,
+            "occ_listing": 24190
+        },
+        {
+            "city": "Crested Butte",
+            "state": "CO",
+            "occupancy": 42,
+            "total_listing": 574,
+            "occ_listing": 24108
+        },
+        {
+            "city": "Winter Park",
+            "state": "CO",
+            "occupancy": 35,
+            "total_listing": 684,
+            "occ_listing": 23940
+        },
+        {
+            "city": "Dillon",
+            "state": "CO",
+            "occupancy": 50,
+            "total_listing": 466,
+            "occ_listing": 23300
+        },
+        {
+            "city": "Grand Junction",
+            "state": "CO",
+            "occupancy": 58,
+            "total_listing": 362,
+            "occ_listing": 20996
+        },
+        {
+            "city": "Telluride",
+            "state": "CO",
+            "occupancy": 49,
+            "total_listing": 401,
+            "occ_listing": 19649
+        },
+        {
+            "city": "Snowmass",
+            "state": "CO",
+            "occupancy": 42,
+            "total_listing": 465,
+            "occ_listing": 19530
+        },
+        {
+            "city": "Buena Vista",
+            "state": "CO",
+            "occupancy": 59,
+            "total_listing": 295,
+            "occ_listing": 17405
+        },
+        {
+            "city": "Laporte",
+            "state": "CO",
+            "occupancy": 65,
+            "total_listing": 261,
+            "occ_listing": 16965
+        },
+        {
+            "city": "Grand Lake",
+            "state": "CO",
+            "occupancy": 53,
+            "total_listing": 320,
+            "occ_listing": 16960
+        },
+        {
+            "city": "Snowmass Village",
+            "state": "CO",
+            "occupancy": 42,
+            "total_listing": 381,
+            "occ_listing": 16002
+        },
+        {
+            "city": "Avon",
+            "state": "CO",
+            "occupancy": 42,
+            "total_listing": 371,
+            "occ_listing": 15582
+        },
+        {
+            "city": "Salida",
+            "state": "CO",
+            "occupancy": 56,
+            "total_listing": 263,
+            "occ_listing": 14728
+        },
+        {
+            "city": "Aspen",
+            "state": "CO",
+            "occupancy": 39,
+            "total_listing": 369,
+            "occ_listing": 14391
+        },
+        {
+            "city": "Arboles",
+            "state": "CO",
+            "occupancy": 55,
+            "total_listing": 255,
+            "occ_listing": 14025
+        },
+        {
+            "city": "Fraser",
+            "state": "CO",
+            "occupancy": 36,
+            "total_listing": 382,
+            "occ_listing": 13752
+        },
+        {
+            "city": "Montezuma",
+            "state": "CO",
+            "occupancy": 41,
+            "total_listing": 306,
+            "occ_listing": 12546
+        }
+    ]
+}

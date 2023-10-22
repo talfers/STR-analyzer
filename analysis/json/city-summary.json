@@ -1,0 +1,15 @@
+{
+    "active_neighborhoods": 1,
+    "investment_properties": 6,
+    "airbnb_listings": 89,
+    "traditional_listings": 0,
+    "avg_property_price": 711083.3333,
+    "avg_price_per_sqft": 497.5877924,
+    "avg_days_on_market": 94.3333,
+    "avg_occupancy": 61.1348,
+    "avg_nightly_price": 237.4045,
+    "avg_airbnb_ROI": 4.930351006357293,
+    "avg_airbnb_rental": 4458.736842105263,
+    "avg_traditional_ROI": 2.2453238932709945,
+    "avg_traditional_rental": 2014.5263157894738
+}

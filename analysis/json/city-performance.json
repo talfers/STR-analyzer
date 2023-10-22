@@ -1,0 +1,28 @@
+{
+    "median_price": 634250,
+    "sqft": 1733.33,
+    "investment_properties": 6,
+    "airbnb_properties": 89,
+    "traditional_properties": 0,
+    "occupancy": 62,
+    "traditional_coc": 2,
+    "airbnb_coc": 5,
+    "airbnb_cap_rate": 5.40451,
+    "traditional_cap_rate": 2.34127,
+    "traditional_rental": 2186,
+    "airbnb_rental": 4884,
+    "airbnb_rental_rates": {
+        "zeroBedRoomHomeValue": 1239,
+        "oneBedRoomHomeValue": 3367,
+        "twoBedRoomsHomeValue": 3755,
+        "threeBedRoomsHomeValue": 4884,
+        "fourBedRoomsHomeValue": 5683
+    },
+    "traditional_rental_rates": {
+        "zeroBedRoomHomeValue": 1206,
+        "oneBedRoomHomeValue": 1351,
+        "twoBedRoomsHomeValue": 1629,
+        "threeBedRoomsHomeValue": 2186,
+        "fourBedRoomsHomeValue": 2588
+    }
+}

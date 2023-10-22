@@ -1,0 +1,101 @@
+{
+    "months": [
+        {
+            "year": 2023,
+            "month": 10,
+            "zero_room_value": 1206,
+            "one_room_value": 1351,
+            "two_room_value": 1629,
+            "three_room_value": 2186,
+            "four_room_value": 2588
+        },
+        {
+            "year": 2023,
+            "month": 9,
+            "zero_room_value": 1206,
+            "one_room_value": 1351,
+            "two_room_value": 1629,
+            "three_room_value": 2186,
+            "four_room_value": 2588
+        },
+        {
+            "year": 2023,
+            "month": 8,
+            "zero_room_value": 1206,
+            "one_room_value": 1351,
+            "two_room_value": 1629,
+            "three_room_value": 2186,
+            "four_room_value": 2588
+        },
+        {
+            "year": 2023,
+            "month": 7,
+            "zero_room_value": 1206,
+            "one_room_value": 1351,
+            "two_room_value": 1629,
+            "three_room_value": 2186,
+            "four_room_value": 2588
+        },
+        {
+            "year": 2023,
+            "month": 6,
+            "zero_room_value": 1206,
+            "one_room_value": 1351,
+            "two_room_value": 1629,
+            "three_room_value": 2186,
+            "four_room_value": 2588
+        },
+        {
+            "year": 2023,
+            "month": 5,
+            "zero_room_value": 1206,
+            "one_room_value": 1351,
+            "two_room_value": 1629,
+            "three_room_value": 2186,
+            "four_room_value": 2588
+        },
+        {
+            "year": 2023,
+            "month": 4,
+            "zero_room_value": 1206,
+            "one_room_value": 1351,
+            "two_room_value": 1629,
+            "three_room_value": 2186,
+            "four_room_value": 2588
+        },
+        {
+            "year": 2023,
+            "month": 3,
+            "zero_room_value": 1206,
+            "one_room_value": 1351,
+            "two_room_value": 1629,
+            "three_room_value": 2186,
+            "four_room_value": 2588
+        },
+        {
+            "year": 2023,
+            "month": 2,
+            "zero_room_value": 1206,
+            "one_room_value": 1351,
+            "two_room_value": 1629,
+            "three_room_value": 2186,
+            "four_room_value": 2588
+        },
+        {
+            "year": 2023,
+            "month": 1,
+            "zero_room_value": 1202.67,
+            "one_room_value": 1344,
+            "two_room_value": 1622,
+            "three_room_value": 2189.33,
+            "four_room_value": 2567.33
+        }
+    ],
+    "averages": {
+        "zero_room_value": 1205.67,
+        "one_room_value": 1350.3,
+        "two_room_value": 1628.3,
+        "three_room_value": 2186.33,
+        "four_room_value": 2585.93
+    }
+}
