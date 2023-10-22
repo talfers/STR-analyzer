@@ -10,13 +10,13 @@ In order to run this application you will need to clone this repository. To do t
 _NOTE: If you receive errors on this step make sure you have [Git](https://git-scm.com/downloads) installed on your computer._
 
 
-```console
+```zsh
 git clone https://github.com/talfers/STR-analyzer.git
 ```
 
 After this, you will need to ensure you are in the application directory before continuing with the following steps. Simply run the following command to switch directories:
 
-```console
+```zsh
 cd STR-analyzer
 ```
 
@@ -33,12 +33,12 @@ Setup is very simple. There are 3 easy steps:
 _NOTE: If you get an error that you do not have python, pip or venv on your computer, see the [Troubleshooting](#troubleshooting) section below._
 
 First create the virtual environment:
-```console
+```zsh
 python3 -m venv venv
 ```
 
 Then install your dependencies:
-```console
+```zsh
 pip install -r requirements.txt
 ```
 
@@ -73,7 +73,7 @@ except Exception as e:
 ```
 
 To try this script, simply go to your terminal and run:
-```console
+```zsh
 python app.py
 ```
 
@@ -97,8 +97,8 @@ plt.savefig('./whatever_filename_you_want')
 ```
 
 To try this script, simply go to your terminal and run:
-```console
-python app.py
+```zsh
+python chart.py
 ```
 
 
@@ -112,7 +112,7 @@ See the [analysis](./analysis) directory for various examples on how the data is
 
 If you cannot install your virtual environment or application dependencies without throwing errors, you will need to ensure [Python](https://www.python.org/downloads/) is downloaded on your computer, which usually has [pip](https://pypi.org/project/pip/) already included. Then, to ensure you have venv installed, simply go to your terminal and run:
 
-```console
+```zsh
 pip install virtualenv
 ```
 
