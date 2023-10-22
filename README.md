@@ -73,13 +73,13 @@ plt.savefig('./whatever_filename_you_want')
 ```
 
 
-# Example Data
+## Example Data
 
 See the [analysis](./analysis) directory for various examples on how the data is returned and saved using Black Hawk, Colorado.
 
 
 
-# Troubleshooting
+## Troubleshooting
 
 If you cannot install your virtual environment or application dependencies without throwing errors, you will need to ensure [Python](https://www.python.org/downloads/) is downloaded on your computer, which usually has [pip](https://pypi.org/project/pip/) already included. Then, to ensure you have venv installed, simply go to your terminal and run:
 
