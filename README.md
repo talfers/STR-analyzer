@@ -2,6 +2,8 @@
 
 This is an application setup to pull various datasets relating to short and long term rentals based on sites like Airbnb. There is a main [Mashvisor](./mashvisor.py) class that contains all the methods you need to collect ample data to use for your analysis.
 
+See the [analysis](./analysis) directory for example on how the data is returned and saved using Black Hawk, Colorado.
+
 ## Setup
 Setup is very simple. There are only 3 easy steps:
 
@@ -30,7 +32,7 @@ pip install -r requirements.txt
 There are 2 main scripts that utilize the Mashvisor class to pull and visualize the data:
 
 ### [`app.py`](./app.py)
-This is a small script that allows you to run any function the Mashvisor class can call inside a try/except block. Running this script pulls the data using the Mashvisor API and saves it to a JSON file for easy analysis.
+This is a small script that allows you to run any function the Mashvisor class can call inside a try/except block. Running this script pulls the data using the Mashvisor API and saves it to a JSON file called `results.json` for easy analysis.
 
 _NOTE: For more information on the Mashvisor class and it's methods, go to [mashvisor.py](./mashvisor.py)._
 
