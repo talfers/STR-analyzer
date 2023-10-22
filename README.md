@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## Run
 There are 2 simple scripts that utilize the Mashvisor class to pull data:
 
-### [app.py](./app.py)
+### [`app.py`](./app.py)
 This is a small script that allows you to run any function the Mashvisor class can call inside a try/except block. Running this script pulls the data using the Mashvisor API and saves it to a JSON file for easy analysis.
 
 _NOTE: For more information on the Mashvisor class and it's methods, go to [mashvisor.py](./mashvisor.py)._
@@ -53,8 +53,8 @@ except Exception as e:
     logger.error(e)
 ```
 
-### [chart.py](./chart.py)
-This script simply pulls in a Mashvisor returned JSON file that contains histogram, heatmap or other charting data and uses matplotlib and/or seaborn to create beautiful charts to easily interpret data.
+### [`chart.py`](./chart.py)
+This script simply pulls in a Mashvisor returned JSON file that contains histogram, heatmap or other charting data and uses [matplotlib](https://matplotlib.org/) and/or [seaborn](https://seaborn.pydata.org/) to create beautiful charts to easily interpret data.
 
 ```python
 import seaborn as sn
