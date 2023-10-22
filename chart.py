@@ -7,6 +7,6 @@ f = open(f'{filename}.json')
 data = json.load(f)
 
 # hm = sn.heatmap(data = data)
-plt.hist(data['detailed']['four_bedrooms_histogram'])
-plt.savefig('./4bed-occupancy-histogram')
+plt.hist(data['detailed']['three_bedrooms_histogram'])
+plt.savefig('./3-bed-occupancy-histogram')
 
