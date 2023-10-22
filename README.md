@@ -10,13 +10,13 @@ In order to run this application you will need to clone this repository. To do t
 _NOTE: If you receive errors on this step make sure you have [Git](https://git-scm.com/downloads) installed on your computer._
 
 
-```sh
+```console
 git clone https://github.com/talfers/STR-analyzer.git
 ```
 
 After this, you will need to ensure you are in the application directory before continuing with the following steps. Simply run the following command to switch directories:
 
-```sh
+```console
 cd STR-analyzer
 ```
 
@@ -33,12 +33,12 @@ Setup is very simple. There are 3 easy steps:
 _NOTE: If you get an error that you do not have python, pip or venv on your computer, see the [Troubleshooting](#troubleshooting) section below._
 
 First create the virtual environment:
-```sh
+```console
 python3 -m venv venv
 ```
 
 Then install your dependencies:
-```sh
+```console
 pip install -r requirements.txt
 ```
 
@@ -72,6 +72,12 @@ except Exception as e:
     logger.error(e)
 ```
 
+To try this script, simply go to your terminal and run:
+```console
+python app.py
+```
+
+
 ### [`chart.py`](./chart.py)
 This script simply pulls in a Mashvisor returned JSON file that contains histogram, heatmap or other charting data and uses [matplotlib](https://matplotlib.org/) and/or [seaborn](https://seaborn.pydata.org/) to create beautiful charts to easily interpret the data.
 
@@ -90,6 +96,11 @@ plt.hist(data['detailed']['three_bedrooms_histogram'])
 plt.savefig('./whatever_filename_you_want')
 ```
 
+To try this script, simply go to your terminal and run:
+```console
+python app.py
+```
+
 
 ## Example Data
 
@@ -101,7 +112,7 @@ See the [analysis](./analysis) directory for various examples on how the data is
 
 If you cannot install your virtual environment or application dependencies without throwing errors, you will need to ensure [Python](https://www.python.org/downloads/) is downloaded on your computer, which usually has [pip](https://pypi.org/project/pip/) already included. Then, to ensure you have venv installed, simply go to your terminal and run:
 
-```sh
+```console
 pip install virtualenv
 ```
 
