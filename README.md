@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 
 ## Run
-There are 2 simple scripts that utilize the Mashvisor class to pull data:
+There are 2 main scripts that utilize the Mashvisor class to pull and visualize the data:
 
 ### [`app.py`](./app.py)
 This is a small script that allows you to run any function the Mashvisor class can call inside a try/except block. Running this script pulls the data using the Mashvisor API and saves it to a JSON file for easy analysis.
