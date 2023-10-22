@@ -2,7 +2,6 @@
 
 This is an application setup to pull various datasets relating to short and long term rentals based on sites like Airbnb. There is a main [Mashvisor](./mashvisor.py) class that contains all the methods you need to collect ample data to use for your analysis.
 
-See the [analysis](./analysis) directory for example on how the data is returned and saved using Black Hawk, Colorado.
 
 ## Setup
 Setup is very simple. There are only 3 easy steps:
@@ -72,3 +71,6 @@ data = json.load(f)
 plt.hist(data['detailed']['three_bedrooms_histogram'])
 plt.savefig('./whatever_filename_you_want')
 ```
+
+
+See the [analysis](./analysis) directory for various examples on how the data is returned and saved using Black Hawk, Colorado.
