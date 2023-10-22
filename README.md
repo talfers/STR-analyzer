@@ -3,6 +3,24 @@
 This is an application setup to pull various datasets relating to short and long term rentals based on sites like Airbnb. There is a main [Mashvisor](./mashvisor.py) class that contains all the methods you need to collect ample data to use for your analysis.
 
 
+## Clone the repo
+
+In order to run this application you will need to clone this repository. To do this simply open your terminal and run the following command:
+
+_NOTE: If you receive errors on this step make sure you have [Git](https://git-scm.com/downloads) installed on your computer._
+
+
+```sh
+git clone https://github.com/talfers/STR-analyzer.git
+```
+
+After this, you will need to ensure you are in the application directory before continuing with the following steps. Simply run the following command to switch directories:
+
+```sh
+cd STR-analyzer
+```
+
+
 ## Setup
 Setup is very simple. There are only 3 easy steps:
 
