@@ -12,7 +12,7 @@ Setup is very simple. There are only 3 easy steps:
 
 3. Lastly, run the following 2 commands in your terminal to create a virtual environment and install all necessary dependencies:
 
-_NOTE: If you get an error that you do not have python, pip or venv on your computer, you will need to Google how to install the ones you lack._
+_NOTE: If you get an error that you do not have python, pip or venv on your computer, see the [Troubleshooting](#troubleshooting) section below._
 
 First create the virtual environment:
 ```sh
@@ -73,4 +73,16 @@ plt.savefig('./whatever_filename_you_want')
 ```
 
 
+# Example Data
+
 See the [analysis](./analysis) directory for various examples on how the data is returned and saved using Black Hawk, Colorado.
+
+
+
+# Troubleshooting
+
+If you cannot install your virtual environment or application dependencies without throwing errors, you will need to ensure [Python](https://www.python.org/downloads/) is downloaded on your computer, which usually has [pip](https://pypi.org/project/pip/) included and then to ensure you have venv installed, simply run:
+
+```pip install virtualenv```
+
+If everything above ran successfully, you should no longer see errors.
