@@ -54,7 +54,7 @@ except Exception as e:
 ```
 
 ### [`chart.py`](./chart.py)
-This script simply pulls in a Mashvisor returned JSON file that contains histogram, heatmap or other charting data and uses [matplotlib](https://matplotlib.org/) and/or [seaborn](https://seaborn.pydata.org/) to create beautiful charts to easily interpret data.
+This script simply pulls in a Mashvisor returned JSON file that contains histogram, heatmap or other charting data and uses [matplotlib](https://matplotlib.org/) and/or [seaborn](https://seaborn.pydata.org/) to create beautiful charts to easily interpret the data.
 
 ```python
 import seaborn as sn
