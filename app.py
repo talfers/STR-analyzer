@@ -4,7 +4,7 @@ from mashvisor import Mashvisor
 
 logger = logging.getLogger('app.py')
 mv = Mashvisor()
-# Black Hawk neighborhood id: 30476
+# Black Hawk neighborhood id: 30476 (use the mv.get_neighborhoods method to find your id)
 try:
     data = mv.get_neighborhood_ltr_historical_performance(30476, 'CO', 2022)
     json_object = json.dumps(data, indent=4)
